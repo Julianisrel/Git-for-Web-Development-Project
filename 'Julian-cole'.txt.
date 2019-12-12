@@ -1,0 +1,47 @@
+1. What is Semantic HTML?  Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.
+    2. What is HTML used for? - HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks
+    3. What is an attribute and where do we put it? - HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type.
+    4. What is the h1 tag used for? How many times should I use it on a page? - Use only one H1 tag per page.
+    5. Name two tags that have required attributes - nav and img
+    6. What do we put in the head of our HTML document? - head tag
+    7. What is an id? - The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    8. What elements can I add an id to? - You can only have one ID per element, but you can indeed have more than one class. But don't have multiple class attributes, put multiple class values into one attribute.
+    9. How many times can I use the same id on a page? - one id per element
+    10. What is a class? - The class is an attribute which specifies one or more class names for an HTML element.
+    11. What elements can I add a class to? - 
+    12. How many times can I use the same class on a page? - While an element can only have a single ID attribute, you can give an element several classes and, in some cases, doing so will make your page easier to style and much more flexible. If you need to assign several classes to an element, add the additional classes and simply separate them with a space in your attribute.
+    13. How do I get my link to open in a new tab? - The short answer is: just add a target="_blank" attribute to your links (anchor tags)
+    14. What is the alt attribute used for? - The required alt attribute specifies an alternate text for an image, if the image cannot be displayed
+    15. How do I reference an id? - The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    16. What is the difference between a section and a div? - In HTML, <section> means that the content inside is grouped and should appear as a entry in an outline of a page whereas <div> does not convey any meaning, aside from any found in its class, lang and title attributes. ... The <div> tag is used to group block-elements to format them with CSS.
+    17. What is CSS used for? Styling
+    18. How to we select an element? Example - every h2 on the page - Universal class
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS? - In the CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+To select elements with a specific class, write a period (.) character, followed by the name of the class. -
+
+You can also specify that only specific HTML elements should be affected by a class. To do this, start with the element name, then write the period (.) character, followed by the name of the class (look at Example 1 below).
+
+HTML elements can also refer to more than one class (look at Example 2 below). 
+
+Version:	CSS1
+Browser Support
+Selector					
+.class	Yes	Yes	Yes	Yes	Yes
+CSS Syntax
+.class {
+  css declarations;
+}
+More Examples
+Example 1
+Style all <p> elements with class="hometown":
+
+p.hometown {
+  background-color: yellow;
+}
+Example 2
+This <p> element will be styled according to class="center" AND to class="large":
+
+<p class="center large">This paragraph refers to two classes.</p>
+
+
